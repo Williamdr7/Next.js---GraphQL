@@ -14,14 +14,17 @@ export const CharacterContainer = styled.div(
 
   ${down(breakpoints.md)} {
     height: 156px;
+    & > div > h5  {
+      margin-bottom: 16px;
+         
+    } 
   }
   ${up(breakpoints.md)} {
     height: 223px;
-  }}
-
-  & > div > h5  {
+    & > div > h5  {
       display: none;            
-  } 
+    } 
+  }}
 
   &:hover {
     img {
