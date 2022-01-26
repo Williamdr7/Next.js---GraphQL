@@ -10,6 +10,14 @@ export const ShimmersContainer = styled.div(
     justify-content: center;
     margin: auto;
 
+
+
+    .shimmer{
+      width: 100% !important;
+      height: 100% !important;    
+      background-size: 2203px 100% !important;
+    }
+
     & > div {      
       margin: auto;
       margin-top: 16px;

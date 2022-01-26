@@ -1,4 +1,3 @@
-//@ts-nocheck
 import React from "react";
 import { Shimmer as PackageShimmer } from "react-shimmer";
 import * as S from "./styled";
